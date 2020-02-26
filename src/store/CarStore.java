@@ -223,7 +223,7 @@ public class CarStore extends Observable{
         create_cars();
 
         //Our shop is open now
-        while (date < 7) {
+        while (date < 35) {
             System.out.println("-----------------------------------------------------");
             System.out.println("-----------------------------------------------------");
             System.out.println("Today is date: " + date);
