@@ -1,0 +1,542 @@
+-----------------------------------------------------
+-----------------------------------------------------
+Today is date: 1
+-----------------------------------------------------
+--------------------------------------
+Completed:
+**********************
+Returned cars #: 0
+**********************
+**********************
+Inventory: 12
+**********************
+Economy Car0 License plate: ECON005
+Standard Car1 License plate: STAD002
+Standard Car2 License plate: STAD003
+Standard Car3 License plate: STAD004
+Luxury Car4 License plate: LUXU002
+Luxury Car5 License plate: LUXU003
+Minivan Car6 License plate: MVAN001
+Minivan Car7 License plate: MVAN002
+Minivan Car8 License plate: MVAN003
+Minivan Car9 License plate: MVAN005
+SUV Car10 License plate: SUV002
+SUV Car11 License plate: SUV005
+--------------------------------------
+Active List:
+Name: Ada (Casual)
+License plate: STAD001
+Return date: 2
+-------
+Name: Chris (Business)
+License plate: ECON001
+License plate: ECON004
+License plate: SUV001
+Return date: 7
+-------
+Name: Lisa (Business)
+License plate: LUXU004
+License plate: ECON006
+License plate: MVAN004
+Return date: 7
+-------
+Name: Joe (Business)
+License plate: ECON003
+License plate: ECON002
+License plate: LUXU001
+Return date: 7
+-------
+Name: James (Casual)
+License plate: SUV003
+Return date: 1
+-------
+Name: Martin (Casual)
+License plate: SUV004
+Return date: 3
+-------
+**********************
+Active car #: 12
+**********************
+-----------------------------------------------------
+-----------------------------------------------------
+Today is date: 2
+-----------------------------------------------------
+--------------------------------------
+Completed:
+Customer Name: James Customer type: Casual
+SUV car; License number: SUV003 --> Child seat, Child seat, Child seat, GPS
+Duration: 1
+Start: 1
+End: 1
+The cost of the current car: 65.0
+Total cost of the current customer: 65.0
+-------
+**********************
+Returned cars #: 1
+**********************
+**********************
+Inventory: 6
+**********************
+Standard Car0 License plate: STAD003
+Standard Car1 License plate: STAD004
+Luxury Car2 License plate: LUXU002
+Minivan Car3 License plate: MVAN005
+SUV Car4 License plate: SUV002
+SUV Car5 License plate: SUV003
+--------------------------------------
+Active List:
+Name: Ada (Casual)
+License plate: STAD001
+Return date: 2
+-------
+Name: Bob (Regular)
+License plate: SUV005
+License plate: MVAN003
+License plate: STAD002
+Return date: 6
+-------
+Name: Chris (Business)
+License plate: ECON001
+License plate: ECON004
+License plate: SUV001
+Return date: 7
+-------
+Name: Coco (Business)
+License plate: MVAN002
+License plate: MVAN001
+License plate: LUXU003
+Return date: 8
+-------
+Name: Lisa (Business)
+License plate: LUXU004
+License plate: ECON006
+License plate: MVAN004
+Return date: 7
+-------
+Name: Joe (Business)
+License plate: ECON003
+License plate: ECON002
+License plate: LUXU001
+Return date: 7
+-------
+Name: James (Casual)
+License plate: ECON005
+Return date: 4
+-------
+Name: Martin (Casual)
+License plate: SUV004
+Return date: 3
+-------
+**********************
+Active car #: 18
+**********************
+-----------------------------------------------------
+-----------------------------------------------------
+Today is date: 3
+-----------------------------------------------------
+--------------------------------------
+Completed:
+Customer Name: Ada Customer type: Casual
+Standard car; License number: STAD001 --> Child seat, Child seat, Child seat, Child seat, Satellite radio
+Duration: 2
+Start: 1
+End: 2
+The cost of the current car: 95.0
+Total cost of the current customer: 95.0
+-------
+Customer Name: James Customer type: Casual
+SUV car; License number: SUV003 --> Child seat, Child seat, Child seat, GPS
+Duration: 1
+Start: 1
+End: 1
+The cost of the current car: 65.0
+Total cost of the current customer: 65.0
+-------
+**********************
+Returned cars #: 2
+**********************
+**********************
+Inventory: 2
+**********************
+Standard Car0 License plate: STAD004
+Standard Car1 License plate: STAD001
+--------------------------------------
+Active List:
+Name: Bob (Regular)
+License plate: SUV005
+License plate: MVAN003
+License plate: STAD002
+Return date: 6
+-------
+Name: Bruce (Business)
+License plate: SUV002
+License plate: LUXU002
+License plate: STAD003
+Return date: 9
+-------
+Name: Chris (Business)
+License plate: ECON001
+License plate: ECON004
+License plate: SUV001
+Return date: 7
+-------
+Name: Coco (Business)
+License plate: MVAN002
+License plate: MVAN001
+License plate: LUXU003
+Return date: 8
+-------
+Name: Lisa (Business)
+License plate: LUXU004
+License plate: ECON006
+License plate: MVAN004
+Return date: 7
+-------
+Name: Joe (Business)
+License plate: ECON003
+License plate: ECON002
+License plate: LUXU001
+Return date: 7
+-------
+Name: James (Casual)
+License plate: ECON005
+License plate: MVAN005
+Return date: 4
+-------
+Name: Martin (Casual)
+License plate: SUV004
+License plate: SUV003
+Return date: 3
+-------
+**********************
+Active car #: 22
+**********************
+-----------------------------------------------------
+-----------------------------------------------------
+Today is date: 4
+-----------------------------------------------------
+--------------------------------------
+Completed:
+Customer Name: Ada Customer type: Casual
+Standard car; License number: STAD001 --> Child seat, Child seat, Child seat, Child seat, Satellite radio
+Duration: 2
+Start: 1
+End: 2
+The cost of the current car: 95.0
+Total cost of the current customer: 95.0
+-------
+Customer Name: James Customer type: Casual
+SUV car; License number: SUV003 --> Child seat, Child seat, Child seat, GPS
+Duration: 1
+Start: 1
+End: 1
+The cost of the current car: 65.0
+Total cost of the current customer: 65.0
+-------
+Customer Name: Martin Customer type: Casual
+SUV car; License number: SUV003 --> Child seat, Child seat, Child seat, GPS
+Duration: 1
+Start: 3
+End: 3
+The cost of the current car: 65.0
+SUV car; License number: SUV004 --> Child seat, Child seat, Child seat, Child seat,
+Duration: 3
+Start: 1
+End: 3
+The cost of the current car: 140.0
+Total cost of the current customer: 205.0
+-------
+**********************
+Returned cars #: 4
+**********************
+**********************
+Inventory: 2
+**********************
+Standard Car0 License plate: STAD004
+SUV Car1 License plate: SUV003
+--------------------------------------
+Active List:
+Name: Bob (Regular)
+License plate: SUV005
+License plate: MVAN003
+License plate: STAD002
+Return date: 6
+-------
+Name: Bruce (Business)
+License plate: SUV002
+License plate: LUXU002
+License plate: STAD003
+Return date: 9
+-------
+Name: Chris (Business)
+License plate: ECON001
+License plate: ECON004
+License plate: SUV001
+Return date: 7
+-------
+Name: Coco (Business)
+License plate: MVAN002
+License plate: MVAN001
+License plate: LUXU003
+Return date: 8
+-------
+Name: David (Casual)
+License plate: STAD001
+Return date: 6
+-------
+Name: Lisa (Business)
+License plate: LUXU004
+License plate: ECON006
+License plate: MVAN004
+Return date: 7
+-------
+Name: Joe (Business)
+License plate: ECON003
+License plate: ECON002
+License plate: LUXU001
+Return date: 7
+-------
+Name: James (Casual)
+License plate: ECON005
+License plate: MVAN005
+License plate: SUV004
+Return date: 4
+-------
+**********************
+Active car #: 22
+**********************
+-----------------------------------------------------
+-----------------------------------------------------
+Today is date: 5
+-----------------------------------------------------
+--------------------------------------
+Completed:
+Customer Name: Ada Customer type: Casual
+Standard car; License number: STAD001 --> Child seat, Child seat, Child seat, Child seat, Satellite radio
+Duration: 2
+Start: 1
+End: 2
+The cost of the current car: 95.0
+Total cost of the current customer: 95.0
+-------
+Customer Name: James Customer type: Casual
+SUV car; License number: SUV003 --> Child seat, Child seat, Child seat, GPS
+Duration: 1
+Start: 1
+End: 1
+The cost of the current car: 65.0
+SUV car; License number: SUV004 --> Child seat,
+Duration: 1
+Start: 4
+End: 4
+The cost of the current car: 45.0
+Minivan car; License number: MVAN005 --> GPS
+Duration: 2
+Start: 3
+End: 4
+The cost of the current car: 110.0
+Economy car; License number: ECON005 --> Child seat, Child seat, Satellite radio
+Duration: 3
+Start: 2
+End: 4
+The cost of the current car: 85.0
+Total cost of the current customer: 305.0
+-------
+Customer Name: Martin Customer type: Casual
+SUV car; License number: SUV003 --> Child seat, Child seat, Child seat, GPS
+Duration: 1
+Start: 3
+End: 3
+The cost of the current car: 65.0
+SUV car; License number: SUV004 --> Child seat, Child seat, Child seat, Child seat,
+Duration: 3
+Start: 1
+End: 3
+The cost of the current car: 140.0
+Total cost of the current customer: 205.0
+-------
+**********************
+Returned cars #: 7
+**********************
+**********************
+Inventory: 2
+**********************
+Minivan Car0 License plate: MVAN005
+Economy Car1 License plate: ECON005
+--------------------------------------
+Active List:
+Name: Amy (Business)
+License plate: SUV004
+License plate: SUV003
+License plate: STAD004
+Return date: 11
+-------
+Name: Bob (Regular)
+License plate: SUV005
+License plate: MVAN003
+License plate: STAD002
+Return date: 6
+-------
+Name: Bruce (Business)
+License plate: SUV002
+License plate: LUXU002
+License plate: STAD003
+Return date: 9
+-------
+Name: Chris (Business)
+License plate: ECON001
+License plate: ECON004
+License plate: SUV001
+Return date: 7
+-------
+Name: Coco (Business)
+License plate: MVAN002
+License plate: MVAN001
+License plate: LUXU003
+Return date: 8
+-------
+Name: David (Casual)
+License plate: STAD001
+Return date: 6
+-------
+Name: Lisa (Business)
+License plate: LUXU004
+License plate: ECON006
+License plate: MVAN004
+Return date: 7
+-------
+Name: Joe (Business)
+License plate: ECON003
+License plate: ECON002
+License plate: LUXU001
+Return date: 7
+-------
+**********************
+Active car #: 22
+**********************
+-----------------------------------------------------
+-----------------------------------------------------
+Today is date: 6
+-----------------------------------------------------
+--------------------------------------
+Completed:
+Customer Name: Ada Customer type: Casual
+Standard car; License number: STAD001 --> Child seat, Child seat, Child seat, Child seat, Satellite radio
+Duration: 2
+Start: 1
+End: 2
+The cost of the current car: 95.0
+Total cost of the current customer: 95.0
+-------
+Customer Name: James Customer type: Casual
+SUV car; License number: SUV003 --> Child seat, Child seat, Child seat, GPS
+Duration: 1
+Start: 1
+End: 1
+The cost of the current car: 65.0
+SUV car; License number: SUV004 --> Child seat,
+Duration: 1
+Start: 4
+End: 4
+The cost of the current car: 45.0
+Minivan car; License number: MVAN005 --> GPS
+Duration: 2
+Start: 3
+End: 4
+The cost of the current car: 110.0
+Economy car; License number: ECON005 --> Child seat, Child seat, Satellite radio
+Duration: 3
+Start: 2
+End: 4
+The cost of the current car: 85.0
+Total cost of the current customer: 305.0
+-------
+Customer Name: Martin Customer type: Casual
+SUV car; License number: SUV003 --> Child seat, Child seat, Child seat, GPS
+Duration: 1
+Start: 3
+End: 3
+The cost of the current car: 65.0
+SUV car; License number: SUV004 --> Child seat, Child seat, Child seat, Child seat,
+Duration: 3
+Start: 1
+End: 3
+The cost of the current car: 140.0
+Total cost of the current customer: 205.0
+-------
+**********************
+Returned cars #: 7
+**********************
+**********************
+Inventory: 2
+**********************
+Minivan Car0 License plate: MVAN005
+Economy Car1 License plate: ECON005
+--------------------------------------
+Active List:
+Name: Amy (Business)
+License plate: SUV004
+License plate: SUV003
+License plate: STAD004
+Return date: 11
+-------
+Name: Bob (Regular)
+License plate: SUV005
+License plate: MVAN003
+License plate: STAD002
+Return date: 6
+-------
+Name: Bruce (Business)
+License plate: SUV002
+License plate: LUXU002
+License plate: STAD003
+Return date: 9
+-------
+Name: Chris (Business)
+License plate: ECON001
+License plate: ECON004
+License plate: SUV001
+Return date: 7
+-------
+Name: Coco (Business)
+License plate: MVAN002
+License plate: MVAN001
+License plate: LUXU003
+Return date: 8
+-------
+Name: David (Casual)
+License plate: STAD001
+Return date: 6
+-------
+Name: Lisa (Business)
+License plate: LUXU004
+License plate: ECON006
+License plate: MVAN004
+Return date: 7
+-------
+Name: Joe (Business)
+License plate: ECON003
+License plate: ECON002
+License plate: LUXU001
+Return date: 7
+-------
+**********************
+Active car #: 22
+**********************
+--------------------------------------
+The total number of rented car: 29
+-----------------------------
+Total income per customer type:
+The total income of Casual type: 720.0
+-----------------------------
+The total income of Standard type: 5355.0
+-----------------------------
+The total income of Luxury type: 660.0
+-----------------------------
+--------------------------------------
+**************************************
+--------------------------------------
+The total store income: 6735.0
+-----------------------------
+
+Process finished with exit code 0
