@@ -1,0 +1,42 @@
+JUnit test 1:
+... Testing behavior of the Business customer ...
+Congratulations!!! Test passed.
+
+JUnit test 2:
+... Testing behavior of the Casual customer ...
+Congratulations!!! Test passed.
+
+JUnit test 3:
+... Testing behavior of the Regular customer ...
+Congratulations!!! Test passed.
+
+JUnit test 4:
+... Testing return on the same day ...
+Congratulations!!! Test passed.
+
+JUnit test 5:
+... Testing no more than 3 cars per customer in total ...
+Congratulations!!! Test passed.
+
+JUnit test 6:
+... Testing Economy Car Cost for one day with randomly adds on...
+Congratulations!!! Test passed.
+
+JUnit test 7:
+... Testing SUV Car Cost for two days with randomly adds on ...
+Congratulations!!! Test passed.
+
+JUnit test 8:
+... Testing Standard Car Cost for three days with randomly adds on ...
+Congratulations!!! Test passed.
+
+JUnit test 9:
+... Testing Minivan Car Cost for four days with randomly adds on ...
+Congratulations!!! Test passed.
+
+JUnit test 10:
+... Testing Minivan Car Cost for five days with randomly adds on ...
+Congratulations!!! Test passed.
+
+
+Process finished with exit code 0

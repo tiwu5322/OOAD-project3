@@ -11,22 +11,15 @@ public class CarStore extends Observable{
     private RentalBehavior casual = new CasualRentBehavior();
     private RentalBehavior business = new BusinessRentBehavior();
     private RentalBehavior regular = new RegularRentBehavior();
-
-
-
     private List<Customer> list_of_customers = new ArrayList<>();
     private List<Customer> list_of_completed = new ArrayList<>();
-
     private int Total_number_of_rented_car = 0;
     private double Total_income_per_type = 0.0;
     private double Total_income = 0.0;
     private Customer current_customer;
     private Car current_car;
     private Tuple<Integer, Integer> request;
-
-
     private List<Car> inventory = new ArrayList<>();
-
     private int date = 1;
     private int number_of_today_customers = 0;
 
@@ -96,7 +89,6 @@ public class CarStore extends Observable{
         for (int i = 0; i < list.size(); i++){
             if (list.get(i).getType().equals(type)){
                 Total_income_per_type += list.get(i).getTotalCost();
-
             }
 
         }
@@ -265,6 +257,7 @@ public class CarStore extends Observable{
                 number_of_today_customers = inventory.size() - 2;
             }
 
+            //assign a car/cars per customer
             while (number_of_today_customers > 0) {
 
                 //get a random qualified customer
@@ -281,16 +274,16 @@ public class CarStore extends Observable{
                 for (int i = 0; i < request.x; i++){
                     //get a random qualified car
                     current_car = inventory.get(randomizer.nextInt(inventory.size()));
-
+                    //fill information
                     current_car.set_rental_duration(request.y);
                     current_car.set_start_date(OpenClass.today);
                     current_car.set_end_date(OpenClass.today + request.y - 1);
-
+                    //add adds on items
                     current_car = addsOn(current_car);
-
+                    //add the car into the customer's car list
                     current_customer.getList_of_cars().add(current_car);
 
-                    //adjust inventory
+                    //adjust inventory: remove the car/cars from inventory
                     for (int k = 0; k < inventory.size(); k++){
                         if (inventory.get(k).get_license().equals(current_car.get_license())){
                             inventory.remove(k);
@@ -303,6 +296,7 @@ public class CarStore extends Observable{
             //notify observer
             update(list_of_completed, inventory, list_of_customers);
 
+            //update date
             date += 1;
             OpenClass.setToday(date);
 
